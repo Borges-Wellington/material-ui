@@ -1,9 +1,10 @@
 const path = require('path');
 
-// WARNING: Use this module only as an inspiration.
-// Cherry-pick the parts you need and inline them in the webpack.config you need.
-// This module isn't used to build the documentation. We use Next.js for that.
-// This module is used by the visual regression tests to run the demos and by eslint-plugin-import.
+// AVISO: Use este módulo apenas como inspiração.
+// Escolha cuidadosamente as partes que você precisa e inline-as no webpack.config que você precisa.
+// Este módulo não é usado para construir a documentação. Usamos o Next.js para isso.
+// Este módulo é usado pelos testes de regressão visual para executar as demos e pelo eslint-plugin-import.
+
 module.exports = {
   context: path.resolve(__dirname),
   resolve: {
